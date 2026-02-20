@@ -1,0 +1,28 @@
+{
+  "cat": [
+    "images/cat/0ae52bc3ee9a8d0797ea7d14f089232d.jpg",
+    "images/cat/0c10ac75952ce7f53bd104c69edbfb3a.jpg",
+    "images/cat/129b7c6787742b199c20c0e5d46f5461.jpg",
+    "images/cat/2313ae18da9843850537b81b70088c1d.jpg",
+    "images/cat/236e50ec199f382747e23f972d8e5064.jpg",
+    "images/cat/30472f52cef750e90f6e12c11685ab0b.jpg",
+    "images/cat/35de38a5a04bcdd75246037bd6abd3f9.jpg",
+    "images/cat/5d1862c683c6f166325204cc5a360d76.jpg",
+    "images/cat/7a5d7a6738061a54382d8db8ab08c6ea.jpg",
+    "images/cat/88fb494aa723b10891bcf0642c803ddf.jpg",
+    "images/cat/ae2b5cc4a644aa4485ee26efcc5b69aa.jpg",
+    "images/cat/da3c51790ddf454732fae0dc6cd9edc4.jpg",
+    "images/cat/f45147f0907de6c6e99620055f96fd61.jpg"
+  ],
+  "dog": [],
+  "sheep": [],
+  "guinea": [
+    "images/guinea/22d9bc429dff83f097cd55b873ff0f4c.jpg",
+    "images/guinea/2858bbf27ecc3ed1e3f346e08f007a5b.jpg",
+    "images/guinea/5cf8140777d3cd419af0f742ed3f49e7.jpg",
+    "images/guinea/72faab1ee5bc4dd91e2d7290620578f8.jpg",
+    "images/guinea/78a1c09034e7d534eddca8ae2dbc37c6.jpg",
+    "images/guinea/827f69528bf7fdbe8cbff40967f63b92.jpg",
+    "images/guinea/e60fdf2998b6bac8c4b111f1cb033b0a.jpg"
+  ]
+}

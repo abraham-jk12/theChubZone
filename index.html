@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chub Zone 🐱</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="bounce">🐱 The Chub Zone 🐱</h1>
+            <p class="subtitle">A Round Animal Appreciation Website</p>
+        </header>
+
+        <nav class="nav-tabs">
+            <button class="nav-btn active" data-section="quiz">Chub-o-Meter</button>
+            <button class="nav-btn" data-section="gallery">Round Gallery</button>
+            <button class="nav-btn" data-section="rate">Rate the Chub</button>
+            <button class="nav-btn special" data-section="birthday">🎂 Special</button>
+        </nav>
+
+        <!-- Chub-o-Meter Quiz Section -->
+        <section id="quiz" class="section active">
+            <h2>Chub-o-Meter Quiz</h2>
+            <p class="section-description">Answer a few silly questions to find your spirit chubby animal!</p>
+            
+            <div id="quiz-container">
+                <div id="quiz-questions" class="quiz-questions"></div>
+                <div id="quiz-result" class="quiz-result hidden"></div>
+            </div>
+        </section>
+
+        <!-- Round Animal Gallery Section -->
+        <section id="gallery" class="section">
+            <h2>Round Animal Gallery</h2>
+            <p class="section-description">Scroll through the roundest animals!</p>
+            
+            <div class="gallery-controls">
+                <button id="spin-wheel" class="btn-primary">🎡 Spin the Wheel - Get a New Chubba!</button>
+                <select id="animal-type">
+                    <option value="cat">Fat Cats</option>
+                    <option value="dog">Fat Dogs</option>
+                    <option value="sheep">Fat Sheep</option>
+                    <option value="guinea">Fat Guinea Pigs</option>
+                    <option value="random">Random</option>
+                </select>
+            </div>
+            
+            <div id="gallery-grid" class="gallery-grid">
+                <div class="loading">Loading chubbas...</div>
+            </div>
+        </section>
+
+        <!-- Rate the Chub Section -->
+        <section id="rate" class="section">
+            <h2>Rate the Chub</h2>
+            <p class="section-description">How round is this chubba?</p>
+            
+            <div class="rate-container">
+                <div id="rate-animal" class="rate-animal">
+                    <div class="loading">Loading a chubba...</div>
+                </div>
+                <div class="rate-controls">
+                    <label for="chub-slider">Chub Level:</label>
+                    <div class="slider-container">
+                        <span class="slider-label">A little round</span>
+                        <input type="range" id="chub-slider" min="1" max="10" value="5" class="chub-slider">
+                        <span class="slider-label">chubba chubba chub</span>
+                    </div>
+                    <div id="chub-rating" class="chub-rating">Rating: 5/10 - Moderately Chubby</div>
+                    <button id="new-chub" class="btn-primary">Get Another Chubba</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Birthday Surprise Section -->
+        <section id="birthday" class="section">
+            <div id="birthday-gate" class="birthday-gate">
+                <h2>🎂 Special Page 🎂</h2>
+                <p>Is this MOO MOO MOO MOO MOO?</p>
+                <div class="gate-buttons">
+                    <button id="yes-btn" class="btn-primary">Yes! 🐱</button>
+                    <button id="no-btn" class="btn-secondary">No</button>
+                </div>
+            </div>
+            
+            <div id="birthday-surprise" class="birthday-surprise hidden">
+                <div class="confetti-container"></div>
+                <div class="surprise-content">
+                    <h2 class="bounce">🎉 Happy Birthday, Moo! 🎉</h2>
+                    <div class="animal-party">
+                        <div class="party-animal">🐱</div>
+                        <div class="party-animal">🐶</div>
+                        <div class="party-animal">🐹</div>
+                        <div class="party-animal">🐑</div>
+                    </div>
+                    <div class="birthday-message">
+                        <p class="message-text">You're the chubbest, roundest, most wonderful person in my life! 🐾</p>
+                        <p class="message-text">Hope your day is as perfect and round as these chubba animals!</p>
+                        <p class="message-text">Mow Loves you! 💕</p>
+                    </div>
+                    <div class="birthday-sign">🎂 HAPPY BIRTHDAY! 🎂</div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
